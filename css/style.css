@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 :root {
   --primary-color: #047aed;
   --secondary-color: #1c3fa8;
@@ -44,7 +43,6 @@ p {
 img {
   width: 100%;
 }
-
 code,
 pre {
   background: #333;
@@ -57,7 +55,6 @@ pre {
   height: 0;
 }
 
-/* Navbar */
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
@@ -82,7 +79,6 @@ pre {
   justify-content: space-between;
 }
 
-/* Showcase */
 .showcase {
   height: 400px;
   background-color: var(--primary-color);
@@ -151,7 +147,6 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
-/* Stats */
 .stats {
   padding-top: 100px;
   animation: slideInFromBottom 1s ease-in;
@@ -171,7 +166,6 @@ pre {
   font-weight: bold;
 }
 
-/* Cli */
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -182,12 +176,10 @@ pre {
   grid-row: 1 / span 2;
 }
 
-/* Cloud */
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
 
-/* Languages */
 
 .languages .flex {
   flex-wrap: wrap;
@@ -208,7 +200,6 @@ pre {
   transform: translateY(-15px);
 }
 
-/* Features */
 .features-head img,
 .docs-head img {
   width: 200px;
@@ -236,7 +227,6 @@ pre {
   grid-column: 1 / span 2;
 }
 
-/* Docs */
 .docs-main h3 {
   margin: 20px 0;
 }
@@ -257,7 +247,6 @@ pre {
   font-weight: bold;
 }
 
-/* Footer */
 .footer .social a {
   margin: 0 10px;
 }
@@ -278,7 +267,6 @@ pre {
   color: #1C9CEA;
 }
 
-/* Animations */
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -319,7 +307,6 @@ pre {
   }
 }
 
-/* Tablets and under */
 @media (max-width: 768px) {
   .grid,
   .showcase .grid,
@@ -371,7 +358,6 @@ pre {
   }
 }
 
-/* Mobile */
 @media (max-width: 500px) {
   .navbar {
     height: 110px;
